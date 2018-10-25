@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body	{font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif}
+
+/*헤더 CSS*/
+
+.box1 header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1 header .left_header{
+    float: left;
+    width: 30%;
+    padding: 10px 0px 10px 10px;
+    line-height: 40px;
+}
+.box1 header .right_header{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+    line-height: 40px;
+}
+
+.box1 header .left_header img{
+    vertical-align: middle;
+    width: 150px;
+}
+.box1 header .right_header div{
+    float: right;
+    vertical-align: middle;
+}
+
+.box1 header .right_header .login:after{
+    content: "|";
+    margin: 0px 10px;
+}
+
+/*메뉴 CSS*/
+
+.gnb {
+    content: "";
+    display: block;
+    clear: both;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 10px;
+}
+.gnb ul {
+}
+.gnb li {
+    float: left;
+    list-style: none;
+}
+.gnb li:after {
+    content: "";
+    margin: 0px 10px;
+}
+.gnb li:last-child:after {
+    content: "";
+}
+
+.gnb li:hover {
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.gnb .gnbClear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*푸터 css*/
+
+.brPlz {
+    margin: 0px 0px 10px 0px;
+}
+
+.box5 {
+}
+.box5 footer {
+    padding: 20px 0px 100px;
+}
+.box5 footer img{
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0px auto 20px;
+}
+.box5 ul {
+}
+.box5 ul li {
+    text-align: center;
+}
+.box5 .brPlz {
+}
+
+
+
+/*커뮤니티 css*/
+
+.box7 .boardTitle {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.box7 .boardAllView {
+    float: left;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 26px 0px 10px 0px;
+}
+
+.boxB .box7:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box8 .allCommBoard{
+    display: inline-block;
+    width: 100%;
+    line-height: 40px
+}
+
+.box8 .allCommBoard:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box8 .community {
+    float: left;
+    margin: 0 20px;
+    width: 40%;
+}
+
+.style1
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.style1 li
+{
+    border-top: solid 1px #a7a7a7;
+    padding: 0.40em;
+}
+
+.style1 li:first-child
+{
+    margin-top: 15px;
+}
+
+.style1 li:last-child
+{
+    border-bottom: solid 1px #a7a7a7;
+}
+
+/*게임 추천 글 css*/
+
+/*추천 글 헤더*/
+
+.box3 .boardTitle {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.box3 .boardAllView {
+    float: left;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 26px 0px 10px 0px;
+}
+
+.boxA .box3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*추천 글 컨텐츠*/
+
+.box4 .allGameBoard .gameBoard img{
+    border: 2px;
+    border-style: solid;
+    width: 110px;
+    height: 140px;
+    display: block;
+}
+
+.box4 {
+    text-align: center;
+}
+
+.box4 .allGameBoard{
+    display: inline-block;
+    line-height: 40px
+}
+
+.box4 .allGameBoard .gameBoard {
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.box4 .allGameBoard .gameBoard:hover {
+    cursor: pointer;
+}
+
+.box4 .allGameBoard:after {
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+.box4 .allGameBoard .lastGameBoard {
+    display: none;
+}
+
+/*미디어 쿼리*/
+
+@media(min-width: 820px) {
+    .box4 .gameBoard img{
+        border: 2px;
+        border-style: solid;
+        width: 110px;
+        height: 140px;
+        display: block;
+    }
+
+    .box4 {
+        text-align: center;
+    }
+
+    .box4 .allGameBoard{
+        display: inline-block;
+    }
+
+    .box4 .gameBoard {
+        float: left;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .box4 .gameBoard:hover {
+        cursor: pointer;
+    }
+
+    .box4 .allGameBoard:after {
+        content: "";
+        display: block;
+        clear: both;
+    } 
+    
+    .box4 .allGameBoard .lastGameBoard {
+        display: block;
+    }
+}
+
+

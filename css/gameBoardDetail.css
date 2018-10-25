@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body	{font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif}
+
+/*헤더 CSS*/
+
+.box1 header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1 header .left_header{
+    float: left;
+    width: 30%;
+    padding: 10px 0px 10px 10px;
+    line-height: 40px;
+}
+.box1 header .right_header{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+    line-height: 40px;
+}
+
+.box1 header .left_header img{
+    vertical-align: middle;
+    width: 150px;
+}
+.box1 header .right_header div{
+    float: right;
+    vertical-align: middle;
+}
+
+.box1 header .right_header .login:after{
+    content: "|";
+    margin: 0px 10px;
+}
+
+/*메뉴 CSS*/
+
+.gnb {
+    content: "";
+    display: block;
+    clear: both;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 10px;
+}
+.gnb ul {
+}
+.gnb li {
+    float: left;
+    list-style: none;
+}
+.gnb li:after {
+    content: "";
+    margin: 0px 10px;
+}
+.gnb li:last-child:after {
+    content: "";
+}
+
+.gnb li:hover {
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.gnb .gnbClear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*푸터 css*/
+
+.brPlz {
+    margin: 0px 0px 10px 0px;
+}
+
+.box5 {
+}
+.box5 footer {
+    padding: 20px 0px 100px;
+}
+.box5 footer img{
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0px auto 20px;
+}
+.box5 ul {
+}
+.box5 ul li {
+    text-align: center;
+}
+.box5 .brPlz {
+}
+
+.leftMenuFrame {
+    float: left;
+    border: 2px solid #999999;
+}
+
+.leftMenuFrame .leftMenu {
+    list-style: none;
+}
+
+.leftMenuFrame .leftMenu .leftMenuTitle {
+    padding: 7px;
+    background: #EEEEEE;
+    border-bottom: 2px solid #999999;
+}
+
+.leftMenuFrame .leftMenu .leftMenuContent {
+    padding: 2px 7px;
+}
+
+.leftMenuFrame .leftMenu .leftMenuContent:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.leftMenuFrame .leftMenu .active {
+    color: red;
+}
+
+.mainFrame {
+    float: left;
+    margin-left: 10px;
+    max-width: 1000px;
+    min-width: 798px;
+}
+
+.box3:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mainFrame .contentContent {
+    margin-top: 30px;
+}
+.mainFrame .contentContent img {
+    float: left;
+    width: 250px;
+    border: 3px solid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.mainFrame .contentContent .whatIsThis:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.upDownButton {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.upDownButton span {
+    border: 5px solid #BBBBBB;
+    padding: 5px;
+    border-radius: 5em;
+    width: 10em;
+}
+
+.upDownButton span:hover {
+    cursor: pointer;
+    
+}
+
+.upDownButton .thumsUp {
+    margin-right: 50px;
+}
+
+.boardControlButton {
+    text-align: right;
+    margin: 30px 0;
+}
+
+.boardControlButton span {
+    border: 2px solid #BBBBBB;
+    padding: 5px;
+    border-radius: 0.4em;
+}
+
+.boardControlButton span:hover {
+    cursor: pointer;
+}
+
+.boardControlButton span:last-child {
+    margin-right: 20px
+}
+
+

@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body	{font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif}
+
+/*헤더 CSS*/
+
+.box1 header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1 header .left_header{
+    float: left;
+    width: 30%;
+    padding: 10px 0px 10px 10px;
+    line-height: 40px;
+}
+.box1 header .right_header{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+    line-height: 40px;
+}
+
+.box1 header .left_header img{
+    vertical-align: middle;
+    width: 150px;
+}
+.box1 header .right_header div{
+    float: right;
+    vertical-align: middle;
+}
+
+.box1 header .right_header .login:after{
+    content: "|";
+    margin: 0px 10px;
+}
+
+/*메뉴 CSS*/
+
+.gnb {
+    content: "";
+    display: block;
+    clear: both;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 10px;
+}
+.gnb ul {
+}
+.gnb li {
+    float: left;
+    list-style: none;
+}
+.gnb li:after {
+    content: "";
+    margin: 0px 10px;
+}
+.gnb li:last-child:after {
+    content: "";
+}
+
+.gnb li:hover {
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+.gnb .gnbClear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*푸터 css*/
+
+.brPlz {
+    margin: 0px 0px 10px 0px;
+}
+
+.box5 {
+}
+.box5 footer {
+    padding: 20px 0px 100px;
+}
+.box5 footer img{
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0px auto 20px;
+}
+.box5 ul {
+}
+.box5 ul li {
+    text-align: center;
+}
+.box5 .brPlz {
+}
+
+/*게임보드 css*/
+
+.box3 {
+}
+
+.gameBoardFrame {
+    width: 80%;
+    margin: auto;
+}
+
+.gameBoardFrame .gameBoardMenu {
+    margin-top: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+.gameBoardFrame .gameBoardMenu .gameBoardMenuChild{
+    float: left;
+    padding: 0 10px 0;
+}
+
+.gameBoardFrame .gameBoardMenu .gameBoardMenuChild:hover {
+    cursor: pointer;
+    color: #BBBBBB;
+}
+
+.gameBoardFrame .gameBoardMenu .gameBoardMenuChild:first-child {
+    color: #BBBBBB;
+    border-bottom: 3px solid #ff7a00;
+}
+
+.gameBoardFrame .gameBoardMenu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.gameBoardFrame .gameBoardContent {
+    
+}
+
+.gameBoardFrame .gameBoardContent .gameBoardContentChild{
+    padding: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+.gameBoardFrame .gameBoardContent .gameBoardContentChild .gameBoardContentChildImg {
+    float: left;
+    width: 4em;
+    border: 2px;
+    border-style: solid;
+    margin: 0 10px 0 0;
+}
+
+.gameBoardFrame .gameBoardContent .gameBoardContentChild .gameBoardContentChildContent {
+    list-style: none;
+}
+
+.gameBoardFrame .gameBoardContent .gameBoardContentChild .gameBoardContentChildContent:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.gameBoardFrame .gameBoardContent .gameBoardContentChild .gameBoardContentChildContent
+.gameBoardContentChildTitle {
+    font-size: 1.5em;
+}
+
+.style1
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.style1 li
+{
+    border-top: solid 1px #a7a7a7;
+    padding: 0.40em;
+}
+
+.style1 li:first-child
+{
+    margin-top: 15px;
+}
+
+.style1 li:last-child
+{
+    border-bottom: solid 1px #a7a7a7;
+}
+
+/*페이지 번호*/
+
+.gameBoardFrame .pageNumber .pageNumberFrame .pageNumberButton {
+    float: left;
+    margin: 5px;
+}
+
+.gameBoardFrame .pageNumber .pageNumberFrame .one {
+    color: #BBBBBB;
+}
+
+.gameBoardFrame .pageNumber .pageNumberFrame .pageNumberButton:hover {
+    cursor: pointer;
+    color: #BBBBBB;
+}
+
+.gameBoardFrame .pageNumber .pageNumberFrame .barFloat {
+    float: left;
+    margin: 5px 0;
+}
+
+.gameBoardFrame .pageNumber .pageNumberFrame {
+    list-style: none;
+    display: inline-block;
+}
+
+.gameBoardFrame .pageNumber .pageNumberFrame:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.gameBoardFrame .pageNumber {
+    text-align: center;
+}
+
+
+
